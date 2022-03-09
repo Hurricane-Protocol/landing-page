@@ -1,0 +1,80 @@
+@font-face {
+  font-family: mainFont;
+  src: url("./assets/font/Montserrat.ttf");
+}
+@font-face {
+  font-family: artFont;
+  line-height: 1.1em;
+  font-weight: 900 !important;
+  src: url("./assets/font/Helvetica.ttf");
+}
+
+:root {
+  --transition: 300ms;
+}
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  font-family: mainFont;
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: start;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: #80b2d8;
+  border: 3px solid transparent;
+  border-radius: 300px;
+  -webkit-background-clip: content-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

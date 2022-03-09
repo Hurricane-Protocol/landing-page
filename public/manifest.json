@@ -1,0 +1,25 @@
+{
+  "short_name": "Bonx",
+  "name": "Bonx Website",
+  "icons": [
+    {
+      "src": "minilogo.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "minilogo.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "minilogo.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
