@@ -16,7 +16,8 @@ const About = () => {
             What is Hurricane?
           </Box>
           <Box maxWidth={"450px"} fontSize={["8px", "12px", "16px", "20px"]} lineHeight={"1.25em"} color={"white"}>
-            It’s a powerful vision of future transactions for users in Terra network to combine the most needed features in one.
+            {/* It’s a powerful vision of future transactions for users in Terra & Near Ecosystem to combine the most needed features in one. */}
+            A powerful platform to empower a powerful vision for future transactions: privacy for every user. 
           </Box>
           <IconBtn dark icon={<PlayIcon />}>
             Discover

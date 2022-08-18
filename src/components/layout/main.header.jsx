@@ -58,7 +58,7 @@ const Header = ({ showSideBar, setShowSideBar }) => {
             <NavBtn
               fontSize={["16px", "20px", "24px"]}
               onClick={() => {
-                window.open("https://github.com/Hurricane-Protocoal", "_blank");
+                window.open("https://github.com/Hurricane-Protocol", "_blank");
               }}
             >
               <GithubIcon />
@@ -89,7 +89,14 @@ const Header = ({ showSideBar, setShowSideBar }) => {
               <LDIcon />
             </NavBtn>
           </Box>
-          <IconBtn order={[2, 2, 3]} py={["5px", "9px", "12px"]} icon={<LaunchIcon />}>
+          <IconBtn
+            order={[2, 2, 3]}
+            py={["5px", "9px", "12px"]}
+            icon={<LaunchIcon />}
+            onClick={() => {
+              window.open("https://terra.hurricane.money/", "blank");
+            }}
+          >
             Launch App
           </IconBtn>
           {/* <Link

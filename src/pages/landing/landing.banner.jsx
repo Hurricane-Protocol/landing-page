@@ -16,9 +16,16 @@ const Banner: React.FC<{ [index: string]: any }> = ({ ...props }) => {
             Hurricane Protocol
           </Box>
           <Box maxWidth={["100%", "100%", "50%"]} fontSize={["8px", "12px", "16px", "20px"]} lineHeight={"1.5em"} color={"white"}>
-            A fully decentralized protocol for private transactions on Terra network with the ability of Yield Farming and NFT trading in further future.
+            {/* A fully decentralized protocol for private transactions on Terra & Near Ecosystem with the ability of Yield Farming and NFT trading in further future. */}
+            A fully decentralized protocol offering private transactions on both the Terra & NEAR Ecosystems, with Yield Farming and NFT trading coming soon.
           </Box>
-          <IconBtn dark icon={<LaunchIcon />}>
+          <IconBtn
+            dark
+            icon={<LaunchIcon />}
+            onClick={() => {
+              window.open("https://terra.hurricane.money/", "blank");
+            }}
+          >
             Launch App
           </IconBtn>
         </Box>

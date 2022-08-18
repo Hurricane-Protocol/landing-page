@@ -39,7 +39,7 @@ const Footer = () => {
               fontSize={["16px", "20px", "24px"]}
               cursor={"pointer"}
               onClick={() => {
-                window.open("https://github.com/Hurricane-Protocoal", "_blank");
+                window.open("https://github.com/Hurricane-Protocol", "_blank");
               }}
             >
               <GithubIcon />

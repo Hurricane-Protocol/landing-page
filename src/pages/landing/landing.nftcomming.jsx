@@ -20,10 +20,11 @@ const NftComming = () => {
       <Container flex={1} pl={["0px", "0px", "250px"]} py={["50px", "120px", "180px"]} display={"flex"} justifyContent={"center"}>
         <Box flex={1} maxWidth={"900px"} px={["20px", "30px", "50px"]} py={"20px"} display={"flex"} justifyContent={"center"} flexDirection={"column"} alignItems={"flex-start"} gridGap={["16px", "30px", "40px"]} borderRadius={"40px"}>
           <Box fontFamily={"artFont"} fontWeight={"900"} fontSize={["18px", "24px", "30px", "40px", "50px"]} lineHeight={"1.25em"} color={"white"}>
-            NFT Comming soon
+            NFT Coming soon
           </Box>
           <Box fontSize={["8px", "12px", "16px", "20px"]} lineHeight={["2em", "2em", "1.5em"]} color={"white"}>
-            Share your creative nfts with other users. become famouse creator or buyer on new hurricane enviroment. Discover, collect, and sell extraordinary NFTs. Create your collection Click My Collections and set up your collection.
+            {/* Share your creative nfts with other users. become famous creator or buyer on new hurricane enviroment. Discover, collect, and sell extraordinary NFTs.  Create your collection - Click 'My Collections' and set up your collection. */}
+            Share your NFTs with other users with the utmost anonymity. Creators and buyers alike can take advantage our powerful NFT platform. Discover, collect, and sell extraordinary NFTs. To get started, select 'My Collections' and create your own collection.
           </Box>
         </Box>
       </Container>

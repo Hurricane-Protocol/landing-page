@@ -20,7 +20,7 @@ const Direction = () => {
                 High Transfers Security
               </Box>
               <Box fontSize={["8px", "12px", "16px", "20px"]} lineHeight={"1.25em"} color={"white"}>
-                A user generates a random key (note) and deposits LUNA or UST, along with submitting a hash of the note to the Hurricane Protocol contract.
+                A user generates a random key (note) and deposits LUNA, along with submitting a hash of the note to the Hurricane Protocol contract.
               </Box>
             </Box>
           </Box>
@@ -34,7 +34,7 @@ const Direction = () => {
               </Box>
               <Box fontSize={["8px", "12px", "16px", "20px"]} lineHeight={"1.25em"} color={"white"}>
                 {/* After depositing, users should wait some amount of time before withdrawing to improve their privacy. */}
-                Hurricane provides vaults that are pools of capital that automatically generate yield basaed on pre-determined strategies. (Anchor Vault)
+                Hurricane provides vaults that are pools of capital that automatically generate yield basaed on pre-determined strategies.
               </Box>
             </Box>
           </Box>

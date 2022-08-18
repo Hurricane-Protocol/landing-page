@@ -15,7 +15,8 @@ const Optimization = () => {
             Yield Farming Optimization
           </Box>
           <Box maxWidth={"450px"} fontSize={["8px", "12px", "16px", "20px"]} lineHeight={"1.25em"} color={"white"}>
-            Interest rates change with request, but for each day’s participation in the Hurricane service, you get new coins, as well as interest and other fees. Use yield optimizer on Terra Network and vaults with high security.
+            {/* Interest rates change with request, but for each day’s participation in the Hurricane service, you get new coins, as well as interest and other fees. Use yield optimizer on Terra & Near Ecosystem and vaults with high security. */}
+            Participation on the platform rewards users with the HURP token, in addition to the accrued interest and other fees accrued by the platform. Users may take advantage of our yield optimizer and secure vaults, all with complete privacy.
           </Box>
           <IconBtn dark icon={<LeafIcon />}>
             Open Vault
